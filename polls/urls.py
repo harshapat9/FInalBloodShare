@@ -4,6 +4,7 @@ from .views import home, about, donor_registration, search, search_info, contact
 
 urlpatterns = [
     path('', home, name='home'),
+    path('home', home, name='home'),
     path('about/', about, name='about'),
     path('donor_registration/', donor_registration,
          name='donor_registration'),
